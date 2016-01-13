@@ -13,3 +13,8 @@ And run
 ```shell
 gulp upgrade-configs
 ```
+
+To configure:
+
+ - At [local.json](local.json) add the key and values to replaced 
+ - At [Environment.example.config](Environment.example.config) you need to add those keys using a string template **"${key}"**.
